@@ -1,0 +1,1155 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary Meta -->
+  <title>AMASTU esthetic — Laserová epilácia alexandritom Candela GentleLase Pro</title>
+  <meta name="description" content="Špičková laserová epilácia alexandritovým laserom Candela GentleLase Pro. Estetické štúdio AMASTU — 8 salónov na Slovensku. Bezpečne, rýchlo, takmer bezbolestne." />
+  <meta name="keywords" content="laserová epilácia, alexandritový laser, Candela GentleLase Pro, estetický salón, kozmetika, HydraBeauty, mezoterapia, AMASTU, Bratislava" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.amastu.sk/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="sk_SK" />
+  <meta property="og:url" content="https://www.amastu.sk/" />
+  <meta property="og:title" content="AMASTU esthetic — Laserová epilácia alexandritom Candela GentleLase Pro" />
+  <meta property="og:description" content="Špičková laserová epilácia, kozmetické a estetické ošetrenia. Miesto, kde sa vraciate k sebe." />
+  <meta property="og:image" content="https://www.amastu.sk/og-image.jpg" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="AMASTU esthetic — Estetické štúdio" />
+  <meta name="twitter:description" content="Laserová epilácia alexandritom Candela GentleLase Pro." />
+
+  <!-- Fonts (brand manual: Inter + Roboto) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind Play -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              green: '#003E25',
+              'green-deep': '#002818',
+              'green-soft': '#1F5A41',
+              rose: '#DBB3B7',
+              'rose-deep': '#C99B9F',
+              'rose-soft': '#EAD3D6',
+              cream: '#F8F1F3',
+              'cream-warm': '#FBF6F4',
+              ink: '#1A1F1C',
+              'ink-soft': '#5C6661',
+              line: '#E8DEDE',
+            },
+          },
+          fontFamily: {
+            display: ['Inter', 'system-ui', 'sans-serif'],
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+            mono: ['Roboto', 'system-ui', 'sans-serif'],
+          },
+        },
+      },
+    };
+  </script>
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BeautySalon",
+    "name": "AMASTU esthetic",
+    "description": "Estetické štúdio zamerané na laserovú epiláciu alexandritovým laserom Candela GentleLase Pro a komplexnú starostlivosť o pleť.",
+    "url": "https://www.amastu.sk",
+    "telephone": "+421 911 000 000",
+    "image": "https://www.amastu.sk/og-image.jpg",
+    "priceRange": "€€",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bratislava",
+      "addressCountry": "SK"
+    },
+    "sameAs": [
+      "https://www.instagram.com/amastuesthetic"
+    ],
+    "makesOffer": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Laserová epilácia alexandritom",
+          "description": "Alexandritový laser Candela GentleLase Pro pre celé telo."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --brand-green: #003E25;
+      --brand-rose: #DBB3B7;
+      --brand-cream: #F8F1F3;
+      --brand-ink: #1A1F1C;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      color: var(--brand-ink);
+      background: #FCFAF8;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    .font-display {
+      font-family: 'Inter', system-ui, sans-serif;
+      font-weight: 300;
+      letter-spacing: -0.025em;
+    }
+    .font-display .italic, .font-display em, .italic {
+      font-style: italic;
+      font-weight: 300;
+    }
+    .nums {
+      font-family: 'Roboto', 'Inter', system-ui, sans-serif;
+      font-weight: 300;
+      font-variant-numeric: tabular-nums;
+      letter-spacing: -0.02em;
+    }
+
+    /* Subtle grain overlay */
+    .grain::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 60;
+      background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+      opacity: 0.6;
+      mix-blend-mode: multiply;
+    }
+
+    /* Nav glass on scroll */
+    .nav-scrolled {
+      background: rgba(252, 250, 248, 0.72);
+      backdrop-filter: saturate(180%) blur(18px);
+      -webkit-backdrop-filter: saturate(180%) blur(18px);
+      border-bottom: 1px solid rgba(232, 222, 222, 0.7);
+    }
+
+    /* Reveal animation */
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity 1s cubic-bezier(0.16, 1, 0.3, 1), transform 1s cubic-bezier(0.16, 1, 0.3, 1); }
+    .reveal.in { opacity: 1; transform: none; }
+
+    /* Perpetual gentle float */
+    @keyframes float-y { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+    .float-y { animation: float-y 7s ease-in-out infinite; }
+
+    @keyframes drift {
+      0%,100% { transform: translate(0,0) rotate(0deg); }
+      50% { transform: translate(14px, -10px) rotate(2deg); }
+    }
+    .drift { animation: drift 16s ease-in-out infinite; }
+
+    /* Marquee */
+    @keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+    .marquee-track { animation: marquee 38s linear infinite; }
+
+    /* Photo placeholder treatment */
+    .photo {
+      background: linear-gradient(135deg, #E8D5D0 0%, #C5B5A8 35%, #6B7C6E 100%);
+      position: relative;
+      overflow: hidden;
+    }
+    .photo::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse at 30% 25%, rgba(255,255,255,0.45), transparent 55%),
+        radial-gradient(ellipse at 75% 80%, rgba(0,62,37,0.32), transparent 60%);
+    }
+    .photo-rose {
+      background: linear-gradient(140deg, #F4DDDA 0%, #DBB3B7 50%, #B68387 100%);
+    }
+    .photo-green {
+      background: linear-gradient(140deg, #5D7A6A 0%, #2C4A38 60%, #003E25 100%);
+    }
+    .photo-warm {
+      background: linear-gradient(135deg, #F8E8DC 0%, #E1C2AA 50%, #8E6F55 100%);
+    }
+
+    /* CTA underline animation */
+    .link-arrow .arrow { transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1); }
+    .link-arrow:hover .arrow { transform: translateX(6px); }
+
+    /* Button press */
+    .btn-tactile { transition: transform 0.18s cubic-bezier(0.16, 1, 0.3, 1), background 0.3s; }
+    .btn-tactile:active { transform: translateY(1px) scale(0.985); }
+
+    /* FAQ */
+    details[open] summary .chev { transform: rotate(45deg); }
+    .chev { transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1); }
+
+    /* Tabular nums */
+    .nums { font-variant-numeric: tabular-nums; }
+
+    /* Selection */
+    ::selection { background: #003E25; color: #F8F1F3; }
+  </style>
+</head>
+
+<body class="grain">
+
+  <!-- ============= NAVIGATION ============= -->
+  <header id="nav" class="fixed top-0 inset-x-0 z-50 transition-all duration-500">
+    <div class="max-w-[1400px] mx-auto px-6 lg:px-10">
+      <div class="flex items-center justify-between h-20">
+        <a href="#" class="flex items-baseline gap-2 group">
+          <span class="font-display text-2xl tracking-tight text-brand-green">AMASTU</span>
+          <span class="text-[10px] uppercase tracking-[0.32em] text-brand-ink-soft pt-1">esthetic</span>
+        </a>
+
+        <nav class="hidden lg:flex items-center gap-9 text-sm text-brand-ink">
+          <a href="#laser" class="hover:text-brand-green transition-colors">Laserová epilácia</a>
+          <a href="#sluzby" class="hover:text-brand-green transition-colors">Služby</a>
+          <a href="#cennik" class="hover:text-brand-green transition-colors">Cenník</a>
+          <a href="#blog" class="hover:text-brand-green transition-colors">Blog</a>
+          <a href="#pobocky" class="hover:text-brand-green transition-colors">Pobočky</a>
+        </nav>
+
+        <div class="flex items-center gap-3">
+          <a href="tel:+421911000000" class="hidden md:flex items-center gap-2 text-sm text-brand-ink-soft hover:text-brand-green transition-colors">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.86 19.86 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+            <span class="nums">+421 911 000 000</span>
+          </a>
+          <a href="#rezervacia" class="btn-tactile bg-brand-green text-brand-cream text-sm font-medium px-5 py-3 rounded-full hover:bg-brand-green-deep">Rezervovať termín</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============= HERO ============= -->
+  <section class="relative pt-32 pb-24 lg:pt-40 lg:pb-32 overflow-hidden min-h-[100dvh] flex items-center">
+
+    <!-- decorative rose orb -->
+    <div class="absolute -top-20 -right-32 w-[520px] h-[520px] rounded-full bg-brand-rose-soft/60 blur-3xl drift pointer-events-none"></div>
+    <div class="absolute bottom-10 -left-40 w-[420px] h-[420px] rounded-full bg-brand-cream blur-3xl pointer-events-none"></div>
+
+    <div class="relative max-w-[1400px] mx-auto px-6 lg:px-10 w-full">
+      <div class="grid lg:grid-cols-12 gap-10 lg:gap-16 items-end">
+
+        <div class="lg:col-span-7 lg:pr-8">
+          <div class="reveal in flex items-center gap-3 mb-8">
+            <span class="h-px w-10 bg-brand-green"></span>
+            <span class="text-[11px] uppercase tracking-[0.32em] text-brand-ink-soft">Estetické štúdio · 8 salónov na Slovensku</span>
+          </div>
+
+          <h1 class="reveal in font-display font-light text-[44px] sm:text-6xl lg:text-[88px] xl:text-[104px] leading-[0.95] tracking-tight text-brand-green">
+            Hladká pleť.
+            <span class="italic font-normal text-brand-ink"> Pokoj,</span>
+            <br/>ktorý si <span class="italic">zaslúžiš.</span>
+          </h1>
+
+          <p class="reveal in mt-8 max-w-xl text-lg text-brand-ink-soft leading-relaxed">
+            Laserová epilácia alexandritom <span class="text-brand-green font-medium">Candela GentleLase Pro</span>. Špičková starostlivosť o celé telo — bezpečne, rýchlo a takmer bezbolestne.
+          </p>
+
+          <div class="reveal in mt-10 flex flex-col sm:flex-row gap-4">
+            <a href="#rezervacia" class="btn-tactile inline-flex items-center justify-center gap-3 bg-brand-green text-brand-cream px-7 py-4 rounded-full font-medium hover:bg-brand-green-deep">
+              Rezervovať konzultáciu
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#cennik" class="link-arrow inline-flex items-center justify-center gap-2 px-2 py-4 text-brand-green font-medium hover:text-brand-green-deep">
+              Pozrieť cenník epilácie
+              <span class="arrow">→</span>
+            </a>
+          </div>
+
+          <div class="reveal in mt-14 flex flex-wrap items-center gap-x-8 gap-y-3 text-xs text-brand-ink-soft">
+            <span class="inline-flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-brand-green"></span> Certifikovaná Candela klinika</span>
+            <span class="inline-flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-brand-green"></span> Špecializovaný tím</span>
+            <span class="inline-flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-brand-green"></span> 9+ rokov skúseností</span>
+          </div>
+        </div>
+
+        <div class="lg:col-span-5 relative">
+          <div class="relative aspect-[4/5] rounded-[2.5rem] overflow-hidden photo float-y shadow-[0_30px_60px_-25px_rgba(0,40,24,0.35)]">
+            <div class="absolute inset-0 bg-gradient-to-t from-brand-green/30 via-transparent to-transparent"></div>
+          </div>
+
+          <!-- floating badge -->
+          <div class="absolute -left-6 lg:-left-12 bottom-12 bg-brand-cream-warm border border-brand-line/80 rounded-2xl px-5 py-4 shadow-[0_20px_50px_-20px_rgba(0,0,0,0.18)] w-[220px]">
+            <div class="flex items-center gap-2 mb-2">
+              <span class="w-2 h-2 rounded-full bg-brand-green"></span>
+              <span class="text-[10px] uppercase tracking-[0.28em] text-brand-ink-soft">Technológia</span>
+            </div>
+            <p class="font-display text-lg leading-tight text-brand-ink">Candela GentleLase Pro</p>
+            <p class="text-xs text-brand-ink-soft mt-1">Alexandritový laser 755 nm</p>
+          </div>
+
+          <!-- secondary badge -->
+          <div class="absolute -right-2 top-10 bg-brand-green text-brand-cream rounded-full pl-4 pr-5 py-2.5 flex items-center gap-2.5 shadow-lg">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="m9 12 2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>
+            <span class="text-xs font-medium tracking-wide">FDA certifikované</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============= TRUST MARQUEE / STATS ============= -->
+  <section class="border-y border-brand-line/70 bg-brand-cream-warm/60">
+    <div class="max-w-[1400px] mx-auto px-6 lg:px-10 py-14 lg:py-16">
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-y-10 gap-x-6 divide-y lg:divide-y-0 lg:divide-x divide-brand-line/70">
+        <div class="lg:px-8">
+          <div class="font-display text-5xl lg:text-6xl text-brand-green nums">9+</div>
+          <p class="mt-2 text-xs uppercase tracking-[0.22em] text-brand-ink-soft">Rokov skúseností</p>
+        </div>
+        <div class="lg:px-8">
+          <div class="font-display text-5xl lg:text-6xl text-brand-green nums">12 400</div>
+          <p class="mt-2 text-xs uppercase tracking-[0.22em] text-brand-ink-soft">Dokončených ošetrení</p>
+        </div>
+        <div class="lg:px-8 pt-10 lg:pt-0">
+          <div class="font-display text-5xl lg:text-6xl text-brand-green nums">8</div>
+          <p class="mt-2 text-xs uppercase tracking-[0.22em] text-brand-ink-soft">Salónov na Slovensku</p>
+        </div>
+        <div class="lg:px-8 pt-10 lg:pt-0">
+          <div class="font-display text-5xl lg:text-6xl text-brand-green nums">97,4 %</div>
+          <p class="mt-2 text-xs uppercase tracking-[0.22em] text-brand-ink-soft">Spokojnosť klientok</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============= LASER FEATURE ============= -->
+  <section id="laser" class="relative py-28 lg:py-40 overflow-hidden">
+    <div class="absolute top-40 -left-32 w-[380px] h-[380px] rounded-full bg-brand-rose-soft/40 blur-3xl pointer-events-none"></div>
+
+    <div class="relative max-w-[1400px] mx-auto px-6 lg:px-10">
+      <div class="grid lg:grid-cols-12 gap-12 lg:gap-20 items-start">
+
+        <div class="lg:col-span-5 lg:sticky lg:top-32">
+          <div class="reveal flex items-center gap-3 mb-6">
+            <span class="h-px w-8 bg-brand-green"></span>
+            <span class="text-[11px] uppercase tracking-[0.32em] text-brand-ink-soft">Vlajková služba</span>
+          </div>
+
+          <h2 class="reveal font-display font-light text-4xl lg:text-6xl leading-[1.02] tracking-tight text-brand-green">
+            Alexandritová epilácia, ktorá hovorí <span class="italic">výsledkami</span>.
+          </h2>
+
+          <p class="reveal mt-8 text-base lg:text-lg text-brand-ink-soft leading-relaxed max-w-md">
+            Candela GentleLase Pro je zlatý štandard laserovej epilácie. Vďaka integrovanému kryogénnemu chladiacemu systému DCD pôsobí presne, šetrne a takmer bez bolesti. Výsledok cítite po prvom ošetrení.
+          </p>
+
+          <div class="reveal mt-10 flex flex-col sm:flex-row gap-4">
+            <a href="#rezervacia" class="btn-tactile inline-flex items-center justify-center gap-3 bg-brand-green text-brand-cream px-6 py-3.5 rounded-full text-sm font-medium hover:bg-brand-green-deep">
+              Bezplatná konzultácia
+            </a>
+            <a href="#cennik" class="link-arrow inline-flex items-center justify-center gap-2 px-2 py-3.5 text-brand-green text-sm font-medium">
+              Cenník podľa partie <span class="arrow">→</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="lg:col-span-7">
+          <div class="space-y-px bg-brand-line/60 rounded-[1.75rem] overflow-hidden border border-brand-line">
+
+            <article class="reveal bg-brand-cream-warm p-8 lg:p-10 grid grid-cols-[auto_1fr] gap-6 lg:gap-8 items-start">
+              <div class="font-display text-3xl text-brand-rose-deep nums">01</div>
+              <div>
+                <h3 class="font-display text-xl lg:text-2xl text-brand-green">DCD chladiaci systém</h3>
+                <p class="mt-3 text-brand-ink-soft leading-relaxed">Kryogénny stream sa uvoľní milisekundu pred zábleskom. Pokožka zostáva pohodlne chladná počas celého ošetrenia.</p>
+              </div>
+            </article>
+
+            <article class="reveal bg-brand-cream-warm p-8 lg:p-10 grid grid-cols-[auto_1fr] gap-6 lg:gap-8 items-start">
+              <div class="font-display text-3xl text-brand-rose-deep nums">02</div>
+              <div>
+                <h3 class="font-display text-xl lg:text-2xl text-brand-green">Vlnová dĺžka 755 nm</h3>
+                <p class="mt-3 text-brand-ink-soft leading-relaxed">Alexandrit je optimálny pre svetlé fototypy pokožky I–III. Vyniká presnosťou a vysokou účinnosťou už od prvého sedenia.</p>
+              </div>
+            </article>
+
+            <article class="reveal bg-brand-cream-warm p-8 lg:p-10 grid grid-cols-[auto_1fr] gap-6 lg:gap-8 items-start">
+              <div class="font-display text-3xl text-brand-rose-deep nums">03</div>
+              <div>
+                <h3 class="font-display text-xl lg:text-2xl text-brand-green">Pulzná škvrna 18 mm</h3>
+                <p class="mt-3 text-brand-ink-soft leading-relaxed">Veľká stopa pulzu znamená rýchlejšie ošetrenie. Celé nohy zvládneme za 25 minút bez kompromisov v presnosti.</p>
+              </div>
+            </article>
+
+            <article class="reveal bg-brand-cream-warm p-8 lg:p-10 grid grid-cols-[auto_1fr] gap-6 lg:gap-8 items-start">
+              <div class="font-display text-3xl text-brand-rose-deep nums">04</div>
+              <div>
+                <h3 class="font-display text-xl lg:text-2xl text-brand-green">Klinicky overené výsledky</h3>
+                <p class="mt-3 text-brand-ink-soft leading-relaxed">FDA certifikácia. Technológia s desaťročnou históriou používaná v špičkových klinikách po celom svete.</p>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============= PROCESS ============= -->
+  <section class="relative py-24 lg:py-32 bg-brand-green text-brand-cream overflow-hidden">
+    <div class="absolute -top-40 right-0 w-[600px] h-[600px] rounded-full bg-brand-rose/10 blur-3xl pointer-events-none"></div>
+
+    <div class="relative max-w-[1400px] mx-auto px-6 lg:px-10">
+      <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-8 mb-16 lg:mb-24">
+        <div class="max-w-xl">
+          <div class="reveal flex items-center gap-3 mb-6">
+            <span class="h-px w-8 bg-brand-rose"></span>
+            <span class="text-[11px] uppercase tracking-[0.32em] text-brand-cream/60">Ako to prebieha</span>
+          </div>
+          <h2 class="reveal font-display font-light text-4xl lg:text-5xl leading-[1.05] tracking-tight">Štyri kroky k <span class="italic text-brand-rose">slobode</span> bez chĺpkov.</h2>
+        </div>
+        <p class="reveal text-brand-cream/70 max-w-sm leading-relaxed">Každé ošetrenie začína konzultáciou. Bez tlaku, bez ponáhľania — len reálny plán pre vašu pleť.</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-px bg-brand-cream/15 border border-brand-cream/15 rounded-3xl overflow-hidden">
+        <div class="reveal p-8 lg:p-10 bg-brand-green min-h-[280px] flex flex-col">
+          <span class="font-display text-5xl text-brand-rose nums">01</span>
+          <h3 class="font-display text-2xl mt-8">Konzultácia</h3>
+          <p class="mt-3 text-sm text-brand-cream/70 leading-relaxed">Posúdime fototyp pleti, prejdeme zdravotný dotazník a navrhneme individuálny plán.</p>
+        </div>
+        <div class="reveal p-8 lg:p-10 bg-brand-green min-h-[280px] flex flex-col">
+          <span class="font-display text-5xl text-brand-rose nums">02</span>
+          <h3 class="font-display text-2xl mt-8">Test pleti</h3>
+          <p class="mt-3 text-sm text-brand-cream/70 leading-relaxed">Skúšobný impulz na malej zóne potvrdí reakciu pokožky pred plnohodnotným ošetrením.</p>
+        </div>
+        <div class="reveal p-8 lg:p-10 bg-brand-green min-h-[280px] flex flex-col">
+          <span class="font-display text-5xl text-brand-rose nums">03</span>
+          <h3 class="font-display text-2xl mt-8">Ošetrenie</h3>
+          <p class="mt-3 text-sm text-brand-cream/70 leading-relaxed">Krátky pulz s DCD chladením. Žiadny gél, žiadny dych zatajený od bolesti.</p>
+        </div>
+        <div class="reveal p-8 lg:p-10 bg-brand-green min-h-[280px] flex flex-col">
+          <span class="font-display text-5xl text-brand-rose nums">04</span>
+          <h3 class="font-display text-2xl mt-8">Starostlivosť</h3>
+          <p class="mt-3 text-sm text-brand-cream/70 leading-relaxed">Aftercare protokol a naplánovanie ďalšieho sedenia v správnom rytme rastu.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============= CENNÍK ============= -->
+  <section id="cennik" class="py-28 lg:py-36 relative overflow-hidden">
+    <div class="absolute top-20 right-0 w-[400px] h-[400px] rounded-full bg-brand-cream blur-3xl pointer-events-none"></div>
+
+    <div class="relative max-w-[1400px] mx-auto px-6 lg:px-10">
+      <div class="grid lg:grid-cols-12 gap-12 mb-16">
+        <div class="lg:col-span-5">
+          <div class="reveal flex items-center gap-3 mb-6">
+            <span class="h-px w-8 bg-brand-green"></span>
+            <span class="text-[11px] uppercase tracking-[0.32em] text-brand-ink-soft">Cenník · Laserová epilácia</span>
+          </div>
+          <h2 class="reveal font-display font-light text-4xl lg:text-6xl leading-[1.02] tracking-tight text-brand-green">Transparentné <span class="italic">ceny</span>. Žiadne prekvapenia.</h2>
+        </div>
+        <div class="lg:col-span-6 lg:col-start-7 flex items-end">
+          <p class="reveal text-brand-ink-soft leading-relaxed max-w-md">Ceny sú za jedno sedenie. Pre maximálny efekt odporúčame balíček 6–8 ošetrení s úsporou do 30 %.</p>
+        </div>
+      </div>
+
+      <div class="grid lg:grid-cols-12 gap-10 lg:gap-16">
+
+        <div class="lg:col-span-7">
+          <ul class="divide-y divide-brand-line">
+
+            <li class="reveal py-5 flex items-baseline justify-between gap-6">
+              <div>
+                <div class="font-display text-xl text-brand-ink">Tvár <span class="text-brand-ink-soft text-base">— horná pera, brada, líca</span></div>
+              </div>
+              <div class="flex items-baseline gap-3 text-brand-green">
+                <span class="text-xs text-brand-ink-soft uppercase tracking-wider">od</span>
+                <span class="font-display text-2xl nums">30 €</span>
+              </div>
+            </li>
+
+            <li class="reveal py-5 flex items-baseline justify-between gap-6">
+              <div class="font-display text-xl text-brand-ink">Podpazušie</div>
+              <div class="flex items-baseline gap-3 text-brand-green">
+                <span class="text-xs text-brand-ink-soft uppercase tracking-wider">od</span>
+                <span class="font-display text-2xl nums">25 €</span>
+              </div>
+            </li>
+
+            <li class="reveal py-5 flex items-baseline justify-between gap-6">
+              <div class="font-display text-xl text-brand-ink">Ruky <span class="text-brand-ink-soft text-base">— celé</span></div>
+              <div class="flex items-baseline gap-3 text-brand-green">
+                <span class="text-xs text-brand-ink-soft uppercase tracking-wider">od</span>
+                <span class="font-display text-2xl nums">45 €</span>
+              </div>
+            </li>
+
+            <li class="reveal py-5 flex items-baseline justify-between gap-6">
+              <div class="font-display text-xl text-brand-ink">Tríslo <span class="text-brand-ink-soft text-base">— classic / brazilian</span></div>
+              <div class="flex items-baseline gap-3 text-brand-green">
+                <span class="text-xs text-brand-ink-soft uppercase tracking-wider">od</span>
+                <span class="font-display text-2xl nums">35 / 50 €</span>
+              </div>
+            </li>
+
+            <li class="reveal py-5 flex items-baseline justify-between gap-6">
+              <div class="font-display text-xl text-brand-ink">Lýtka</div>
+              <div class="flex items-baseline gap-3 text-brand-green">
+                <span class="text-xs text-brand-ink-soft uppercase tracking-wider">od</span>
+                <span class="font-display text-2xl nums">50 €</span>
+              </div>
+            </li>
+
+            <li class="reveal py-5 flex items-baseline justify-between gap-6">
+              <div class="font-display text-xl text-brand-ink">Celé nohy</div>
+              <div class="flex items-baseline gap-3 text-brand-green">
+                <span class="text-xs text-brand-ink-soft uppercase tracking-wider">od</span>
+                <span class="font-display text-2xl nums">90 €</span>
+              </div>
+            </li>
+
+            <li class="reveal py-5 flex items-baseline justify-between gap-6">
+              <div class="font-display text-xl text-brand-ink">Chrbát <span class="text-brand-ink-soft text-base">— pre pánov</span></div>
+              <div class="flex items-baseline gap-3 text-brand-green">
+                <span class="text-xs text-brand-ink-soft uppercase tracking-wider">od</span>
+                <span class="font-display text-2xl nums">70 €</span>
+              </div>
+            </li>
+
+            <li class="reveal py-5 flex items-baseline justify-between gap-6">
+              <div class="font-display text-xl text-brand-ink">Hrudník</div>
+              <div class="flex items-baseline gap-3 text-brand-green">
+                <span class="text-xs text-brand-ink-soft uppercase tracking-wider">od</span>
+                <span class="font-display text-2xl nums">55 €</span>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+        <div class="lg:col-span-5 space-y-5">
+
+          <div class="reveal bg-brand-green text-brand-cream rounded-[2rem] p-8 lg:p-10 relative overflow-hidden">
+            <div class="absolute -top-20 -right-20 w-60 h-60 rounded-full bg-brand-rose/15 blur-2xl"></div>
+            <span class="text-[10px] uppercase tracking-[0.3em] text-brand-cream/60">Najobľúbenejší balíček</span>
+            <h3 class="font-display text-3xl mt-3">Celé telo · 6 sedení</h3>
+            <p class="mt-3 text-sm text-brand-cream/75 leading-relaxed max-w-xs">Optimálny počet ošetrení pre trvalý výsledok. Plánovanie podľa fázy rastu.</p>
+
+            <div class="mt-8 flex items-baseline gap-4">
+              <span class="font-display text-5xl nums">1 290 €</span>
+              <span class="text-sm text-brand-cream/55 line-through nums">1 740 €</span>
+            </div>
+            <p class="text-xs mt-1 text-brand-rose">Úspora 26 %</p>
+
+            <a href="#rezervacia" class="btn-tactile mt-8 inline-flex items-center gap-3 bg-brand-cream text-brand-green px-6 py-3.5 rounded-full text-sm font-medium hover:bg-brand-rose-soft">
+              Rezervovať balíček
+            </a>
+          </div>
+
+          <div class="reveal border border-brand-line rounded-[2rem] p-8 lg:p-10 bg-brand-cream-warm">
+            <h3 class="font-display text-2xl text-brand-green">Vstupná konzultácia</h3>
+            <p class="mt-3 text-sm text-brand-ink-soft leading-relaxed">Vždy bez poplatku. Posúdime vhodnosť, dáme test pleti a navrhneme reálny plán.</p>
+            <div class="mt-6 flex items-baseline gap-2">
+              <span class="font-display text-3xl text-brand-green nums">0 €</span>
+              <span class="text-xs text-brand-ink-soft">— vrátane testu pleti</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============= SLUŽBY (BENTO) ============= -->
+  <section id="sluzby" class="py-28 lg:py-36 bg-brand-cream relative">
+    <div class="max-w-[1400px] mx-auto px-6 lg:px-10">
+
+      <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-8 mb-16">
+        <div class="max-w-xl">
+          <div class="reveal flex items-center gap-3 mb-6">
+            <span class="h-px w-8 bg-brand-green"></span>
+            <span class="text-[11px] uppercase tracking-[0.32em] text-brand-ink-soft">Ďalšie ošetrenia</span>
+          </div>
+          <h2 class="reveal font-display font-light text-4xl lg:text-6xl leading-[1.02] tracking-tight text-brand-green">Starostlivosť, ktorá <span class="italic">presahuje</span> laser.</h2>
+        </div>
+        <a href="#" class="reveal link-arrow inline-flex items-center gap-2 text-brand-green font-medium">Všetky služby <span class="arrow">→</span></a>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-5 lg:gap-6">
+
+        <article class="reveal lg:col-span-7 lg:row-span-2 relative rounded-[2rem] overflow-hidden bg-brand-cream-warm border border-brand-line min-h-[460px] group">
+          <div class="absolute inset-0 photo-rose"></div>
+          <div class="absolute inset-0 bg-gradient-to-t from-brand-green/65 via-brand-green/20 to-transparent"></div>
+          <div class="relative h-full flex flex-col justify-end p-8 lg:p-10 text-brand-cream">
+            <span class="text-[10px] uppercase tracking-[0.32em] text-brand-cream/70">Signature</span>
+            <h3 class="font-display text-4xl lg:text-5xl mt-3 leading-none">HydraBeauty</h3>
+            <p class="mt-4 max-w-md text-brand-cream/85 leading-relaxed">Hĺbkové čistenie a hydratácia v jednej procedúre. Technológia Cellular Water obnoví bariéru pleti za 60 minút.</p>
+            <a href="#" class="link-arrow mt-6 inline-flex items-center gap-2 text-brand-cream font-medium">Objaviť rituál <span class="arrow">→</span></a>
+          </div>
+        </article>
+
+        <article class="reveal lg:col-span-5 relative rounded-[2rem] overflow-hidden bg-brand-cream-warm border border-brand-line p-8 lg:p-10 min-h-[220px]">
+          <div class="flex items-start justify-between">
+            <div>
+              <span class="text-[10px] uppercase tracking-[0.32em] text-brand-ink-soft">Estetika</span>
+              <h3 class="font-display text-3xl mt-3 text-brand-green">Mezoterapia</h3>
+            </div>
+            <span class="w-10 h-10 rounded-full bg-brand-green/10 flex items-center justify-center">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#003E25" stroke-width="1.5"><path d="M7 7h10v10H7zM12 3v4M12 17v4M3 12h4M17 12h4"/></svg>
+            </span>
+          </div>
+          <p class="mt-4 text-sm text-brand-ink-soft leading-relaxed">Mikrovstreky vitamínov, kyseliny hyalurónovej a aminokyselín priamo do dermy.</p>
+        </article>
+
+        <article class="reveal lg:col-span-5 relative rounded-[2rem] overflow-hidden bg-brand-green text-brand-cream p-8 lg:p-10 min-h-[220px]">
+          <span class="text-[10px] uppercase tracking-[0.32em] text-brand-cream/60">Francúzska škola</span>
+          <h3 class="font-display text-3xl mt-3">Repêchage</h3>
+          <p class="mt-4 text-sm text-brand-cream/75 leading-relaxed">Rituály so 4 generáciami morských rias. Liftingový efekt v jednom sedení.</p>
+        </article>
+
+        <article class="reveal lg:col-span-4 relative rounded-[2rem] overflow-hidden bg-brand-cream-warm border border-brand-line p-8 lg:p-10 min-h-[200px]">
+          <span class="text-[10px] uppercase tracking-[0.32em] text-brand-ink-soft">Tradícia</span>
+          <h3 class="font-display text-2xl mt-3 text-brand-green">Ajurvéda</h3>
+          <p class="mt-3 text-sm text-brand-ink-soft leading-relaxed">Abhyanga, Shirodhara, meridiánové masáže pre celkový reset.</p>
+        </article>
+
+        <article class="reveal lg:col-span-4 relative rounded-[2rem] overflow-hidden bg-brand-rose-soft/70 p-8 lg:p-10 min-h-[200px]">
+          <span class="text-[10px] uppercase tracking-[0.32em] text-brand-green/70">Detail</span>
+          <h3 class="font-display text-2xl mt-3 text-brand-green">Mihalnice a obočie</h3>
+          <p class="mt-3 text-sm text-brand-ink leading-relaxed">Lash-lift, laminácia, henna, microblading — pre prirodzený výraz každý deň.</p>
+        </article>
+
+        <article class="reveal lg:col-span-4 relative rounded-[2rem] overflow-hidden bg-brand-cream-warm border border-brand-line p-8 lg:p-10 min-h-[200px]">
+          <span class="text-[10px] uppercase tracking-[0.32em] text-brand-ink-soft">Obnova</span>
+          <h3 class="font-display text-2xl mt-3 text-brand-green">Chemické peelingy</h3>
+          <p class="mt-3 text-sm text-brand-ink-soft leading-relaxed">AHA, BHA, mandľová alebo trichlóroctová obnova podľa typu pleti.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============= FILOZOFIA ============= -->
+  <section class="py-28 lg:py-40 relative overflow-hidden">
+    <div class="absolute -bottom-32 -left-20 w-[460px] h-[460px] rounded-full bg-brand-cream blur-3xl pointer-events-none"></div>
+
+    <div class="relative max-w-[1400px] mx-auto px-6 lg:px-10">
+      <div class="grid lg:grid-cols-12 gap-12 lg:gap-20 items-center">
+
+        <div class="lg:col-span-6 order-2 lg:order-1 relative">
+          <div class="aspect-[5/6] rounded-[2.5rem] overflow-hidden photo photo-warm shadow-[0_30px_60px_-25px_rgba(0,40,24,0.3)]"></div>
+          <div class="absolute -top-6 -right-6 lg:-right-12 w-32 h-32 rounded-full bg-brand-rose-soft float-y hidden md:block"></div>
+        </div>
+
+        <div class="lg:col-span-6 order-1 lg:order-2">
+          <div class="reveal flex items-center gap-3 mb-6">
+            <span class="h-px w-8 bg-brand-green"></span>
+            <span class="text-[11px] uppercase tracking-[0.32em] text-brand-ink-soft">Filozofia</span>
+          </div>
+
+          <h2 class="reveal font-display font-light text-4xl lg:text-6xl leading-[1.02] tracking-tight text-brand-green">
+            Miesto, kde sa <span class="italic">vraciate</span> k sebe.
+          </h2>
+
+          <div class="reveal mt-8 space-y-5 text-brand-ink-soft leading-relaxed max-w-lg">
+            <p>AMASTU spája klinickú presnosť modernej estetiky s pokojom rituálu. Veríme, že starostlivosť o pleť nie je len o výsledku — je o čase, ktorý si dáte.</p>
+            <p>Náš tím certifikovaných špecialistiek vám pomôže nájsť vlastný rytmus krásy. Bez ponáhľania. Bez kompromisov.</p>
+          </div>
+
+          <div class="reveal mt-10 grid grid-cols-2 gap-px bg-brand-line rounded-2xl overflow-hidden border border-brand-line">
+            <div class="bg-brand-cream-warm p-6">
+              <div class="font-display text-3xl text-brand-green nums">100 %</div>
+              <p class="text-xs text-brand-ink-soft mt-1 uppercase tracking-wider">Certifikovaný tím</p>
+            </div>
+            <div class="bg-brand-cream-warm p-6">
+              <div class="font-display text-3xl text-brand-green nums">2017</div>
+              <p class="text-xs text-brand-ink-soft mt-1 uppercase tracking-wider">Od založenia</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============= GALÉRIA ============= -->
+  <section class="py-24 lg:py-32 bg-brand-cream-warm relative">
+    <div class="max-w-[1400px] mx-auto px-6 lg:px-10">
+      <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-8 mb-12">
+        <div class="max-w-xl">
+          <div class="reveal flex items-center gap-3 mb-6">
+            <span class="h-px w-8 bg-brand-green"></span>
+            <span class="text-[11px] uppercase tracking-[0.32em] text-brand-ink-soft">Atmosféra · @amastuesthetic</span>
+          </div>
+          <h2 class="reveal font-display font-light text-4xl lg:text-5xl text-brand-green leading-[1.05]">Pozrite sa <span class="italic">k nám</span>.</h2>
+        </div>
+        <a href="https://instagram.com/amastuesthetic" target="_blank" rel="noopener" class="reveal link-arrow inline-flex items-center gap-2 text-brand-green font-medium">Sledovať na Instagrame <span class="arrow">→</span></a>
+      </div>
+
+      <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3 lg:gap-4">
+        <div class="reveal aspect-square rounded-2xl photo photo-rose"></div>
+        <div class="reveal aspect-square rounded-2xl photo"></div>
+        <div class="reveal aspect-square rounded-2xl photo photo-green"></div>
+        <div class="reveal aspect-square rounded-2xl photo photo-warm"></div>
+        <div class="reveal aspect-square rounded-2xl photo photo-rose md:col-span-1 lg:col-span-1"></div>
+        <div class="reveal aspect-square rounded-2xl photo"></div>
+        <div class="reveal aspect-[2/1] rounded-2xl photo photo-warm col-span-2 md:col-span-4 lg:col-span-3"></div>
+        <div class="reveal aspect-square rounded-2xl photo photo-green"></div>
+        <div class="reveal aspect-square rounded-2xl photo photo-rose"></div>
+        <div class="reveal aspect-square rounded-2xl photo"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============= RECENZIE ============= -->
+  <section class="py-28 lg:py-36 relative">
+    <div class="max-w-[1400px] mx-auto px-6 lg:px-10">
+
+      <div class="grid lg:grid-cols-12 gap-12 mb-16 items-end">
+        <div class="lg:col-span-7">
+          <div class="reveal flex items-center gap-3 mb-6">
+            <span class="h-px w-8 bg-brand-green"></span>
+            <span class="text-[11px] uppercase tracking-[0.32em] text-brand-ink-soft">Klientky hovoria</span>
+          </div>
+          <h2 class="reveal font-display font-light text-4xl lg:text-6xl text-brand-green leading-[1.02] tracking-tight">Dôvera, ktorá rastie <span class="italic">sedením</span> po sedení.</h2>
+        </div>
+        <div class="lg:col-span-5 lg:text-right">
+          <div class="reveal inline-flex items-baseline gap-3">
+            <span class="font-display text-5xl text-brand-green nums">4,9</span>
+            <div class="text-left">
+              <div class="flex gap-1 text-brand-rose-deep">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 14.6 8.5 21.5 9 16 13.5 17.5 20.5 12 16.8 6.5 20.5 8 13.5 2.5 9 9.4 8.5z"/></svg>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 14.6 8.5 21.5 9 16 13.5 17.5 20.5 12 16.8 6.5 20.5 8 13.5 2.5 9 9.4 8.5z"/></svg>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 14.6 8.5 21.5 9 16 13.5 17.5 20.5 12 16.8 6.5 20.5 8 13.5 2.5 9 9.4 8.5z"/></svg>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 14.6 8.5 21.5 9 16 13.5 17.5 20.5 12 16.8 6.5 20.5 8 13.5 2.5 9 9.4 8.5z"/></svg>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 14.6 8.5 21.5 9 16 13.5 17.5 20.5 12 16.8 6.5 20.5 8 13.5 2.5 9 9.4 8.5z"/></svg>
+              </div>
+              <p class="text-xs text-brand-ink-soft mt-1 nums">847 hodnotení · Google</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <figure class="reveal bg-brand-cream-warm border border-brand-line rounded-[1.75rem] p-8 lg:p-10 flex flex-col">
+          <svg width="28" height="22" viewBox="0 0 32 24" fill="none" class="text-brand-rose-deep mb-6"><path d="M0 24V12C0 5.4 5.4 0 12 0v4C7.6 4 4 7.6 4 12h4v12H0zM20 24V12C20 5.4 25.4 0 32 0v4c-4.4 0-8 3.6-8 8h4v12h-8z" fill="currentColor"/></svg>
+          <blockquote class="font-display text-lg leading-relaxed text-brand-ink">Po štyroch sedeniach laserovej epilácie môžem konečne zabudnúť na holiace strojčeky. Tím v AMASTU je profesionálny a milý — chodím vždy s radosťou.</blockquote>
+          <figcaption class="mt-8 pt-6 border-t border-brand-line flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-brand-green/10 flex items-center justify-center font-display text-brand-green">L</div>
+            <div>
+              <div class="text-sm font-medium text-brand-ink">Lucia Mračková</div>
+              <div class="text-xs text-brand-ink-soft">Klientka od 2023 · Bratislava</div>
+            </div>
+          </figcaption>
+        </figure>
+
+        <figure class="reveal bg-brand-green text-brand-cream rounded-[1.75rem] p-8 lg:p-10 flex flex-col relative overflow-hidden">
+          <div class="absolute -top-20 -right-20 w-52 h-52 rounded-full bg-brand-rose/15 blur-2xl"></div>
+          <svg width="28" height="22" viewBox="0 0 32 24" fill="none" class="text-brand-rose mb-6 relative"><path d="M0 24V12C0 5.4 5.4 0 12 0v4C7.6 4 4 7.6 4 12h4v12H0zM20 24V12C20 5.4 25.4 0 32 0v4c-4.4 0-8 3.6-8 8h4v12h-8z" fill="currentColor"/></svg>
+          <blockquote class="relative font-display text-lg leading-relaxed">HydraBeauty zmenila moju pleť. Po prvom ošetrení som mala pocit, akoby som sa práve vrátila z dovolenky pri mori.</blockquote>
+          <figcaption class="relative mt-8 pt-6 border-t border-brand-cream/15 flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-brand-cream/15 flex items-center justify-center font-display text-brand-cream">P</div>
+            <div>
+              <div class="text-sm font-medium">Petra Balková</div>
+              <div class="text-xs text-brand-cream/65">Pravidelná klientka · Košice</div>
+            </div>
+          </figcaption>
+        </figure>
+
+        <figure class="reveal bg-brand-cream-warm border border-brand-line rounded-[1.75rem] p-8 lg:p-10 flex flex-col">
+          <svg width="28" height="22" viewBox="0 0 32 24" fill="none" class="text-brand-rose-deep mb-6"><path d="M0 24V12C0 5.4 5.4 0 12 0v4C7.6 4 4 7.6 4 12h4v12H0zM20 24V12C20 5.4 25.4 0 32 0v4c-4.4 0-8 3.6-8 8h4v12h-8z" fill="currentColor"/></svg>
+          <blockquote class="font-display text-lg leading-relaxed text-brand-ink">Najlepší laser, ktorý som vyskúšala — a vyskúšala som ich veľa. Žiadna bolesť, viditeľný rozdiel od druhého sedenia.</blockquote>
+          <figcaption class="mt-8 pt-6 border-t border-brand-line flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-brand-green/10 flex items-center justify-center font-display text-brand-green">M</div>
+            <div>
+              <div class="text-sm font-medium text-brand-ink">Mária Kollárová</div>
+              <div class="text-xs text-brand-ink-soft">Klientka od 2022 · Trnava</div>
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============= BLOG ============= -->
+  <section id="blog" class="py-28 lg:py-36 bg-brand-cream relative">
+    <div class="max-w-[1400px] mx-auto px-6 lg:px-10">
+
+      <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-8 mb-16">
+        <div class="max-w-xl">
+          <div class="reveal flex items-center gap-3 mb-6">
+            <span class="h-px w-8 bg-brand-green"></span>
+            <span class="text-[11px] uppercase tracking-[0.32em] text-brand-ink-soft">Žurnál · Nové</span>
+          </div>
+          <h2 class="reveal font-display font-light text-4xl lg:text-6xl text-brand-green leading-[1.02] tracking-tight">Čítajte. Učte sa. <span class="italic">Rozhodujte.</span></h2>
+        </div>
+        <a href="#" class="reveal link-arrow inline-flex items-center gap-2 text-brand-green font-medium">Všetky články <span class="arrow">→</span></a>
+      </div>
+
+      <div class="grid lg:grid-cols-12 gap-6 lg:gap-8">
+
+        <article class="reveal lg:col-span-6 group">
+          <a href="#" class="block">
+            <div class="aspect-[16/10] rounded-[1.75rem] overflow-hidden photo photo-rose mb-6 transition-transform duration-700 group-hover:scale-[1.01]"></div>
+            <div class="flex items-center gap-3 text-[11px] uppercase tracking-[0.28em] text-brand-ink-soft mb-4">
+              <span class="text-brand-green">Laserová epilácia</span>
+              <span class="w-1 h-1 rounded-full bg-brand-ink-soft"></span>
+              <span>5 min čítanie</span>
+            </div>
+            <h3 class="font-display text-3xl lg:text-4xl text-brand-green leading-[1.1] group-hover:underline underline-offset-4 decoration-1">Ako sa pripraviť na prvé laserové ošetrenie</h3>
+            <p class="mt-4 text-brand-ink-soft leading-relaxed max-w-lg">Čo robiť 4 týždne pred sedením, prečo netreba opálenie, a ako vyzerá deň D z pohľadu špecialistky.</p>
+          </a>
+        </article>
+
+        <div class="lg:col-span-6 space-y-8">
+
+          <article class="reveal group grid grid-cols-[140px_1fr] gap-5 items-start">
+            <a href="#" class="aspect-square rounded-2xl overflow-hidden photo photo-green block"></a>
+            <div>
+              <div class="flex items-center gap-3 text-[11px] uppercase tracking-[0.28em] text-brand-ink-soft mb-3">
+                <span class="text-brand-green">Edukácia</span>
+                <span class="w-1 h-1 rounded-full bg-brand-ink-soft"></span>
+                <span>7 min</span>
+              </div>
+              <a href="#"><h3 class="font-display text-xl lg:text-2xl text-brand-green leading-tight group-hover:underline underline-offset-4 decoration-1">Alexandrit vs. dióda vs. IPL — čím sa líšia?</h3></a>
+              <p class="mt-2 text-sm text-brand-ink-soft leading-relaxed">Prehľad troch najpoužívanejších technológií. Pre koho je ktorá najvhodnejšia.</p>
+            </div>
+          </article>
+
+          <article class="reveal group grid grid-cols-[140px_1fr] gap-5 items-start">
+            <a href="#" class="aspect-square rounded-2xl overflow-hidden photo photo-warm block"></a>
+            <div>
+              <div class="flex items-center gap-3 text-[11px] uppercase tracking-[0.28em] text-brand-ink-soft mb-3">
+                <span class="text-brand-green">Starostlivosť</span>
+                <span class="w-1 h-1 rounded-full bg-brand-ink-soft"></span>
+                <span>4 min</span>
+              </div>
+              <a href="#"><h3 class="font-display text-xl lg:text-2xl text-brand-green leading-tight group-hover:underline underline-offset-4 decoration-1">Aftercare po laseri: čo robiť a čomu sa vyhnúť</h3></a>
+              <p class="mt-2 text-sm text-brand-ink-soft leading-relaxed">Prvé hodiny, prvý týždeň a dlhodobá rutina. Praktický návod od našich špecialistiek.</p>
+            </div>
+          </article>
+
+          <article class="reveal group grid grid-cols-[140px_1fr] gap-5 items-start">
+            <a href="#" class="aspect-square rounded-2xl overflow-hidden photo block"></a>
+            <div>
+              <div class="flex items-center gap-3 text-[11px] uppercase tracking-[0.28em] text-brand-ink-soft mb-3">
+                <span class="text-brand-green">Mýty</span>
+                <span class="w-1 h-1 rounded-full bg-brand-ink-soft"></span>
+                <span>6 min</span>
+              </div>
+              <a href="#"><h3 class="font-display text-xl lg:text-2xl text-brand-green leading-tight group-hover:underline underline-offset-4 decoration-1">7 mýtov o laserovej epilácii, ktoré stále počúvame</h3></a>
+              <p class="mt-2 text-sm text-brand-ink-soft leading-relaxed">Spomalí rast po vysadení? Funguje na bielom chĺpku? Vyvraciame fakty proti fámam.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============= POBOČKY ============= -->
+  <section id="pobocky" class="py-28 lg:py-36 relative">
+    <div class="max-w-[1400px] mx-auto px-6 lg:px-10">
+
+      <div class="grid lg:grid-cols-12 gap-12 mb-16 items-end">
+        <div class="lg:col-span-7">
+          <div class="reveal flex items-center gap-3 mb-6">
+            <span class="h-px w-8 bg-brand-green"></span>
+            <span class="text-[11px] uppercase tracking-[0.32em] text-brand-ink-soft">Pobočky</span>
+          </div>
+          <h2 class="reveal font-display font-light text-4xl lg:text-6xl text-brand-green leading-[1.02] tracking-tight">Nájdete nás na <span class="italic">ôsmich</span> miestach.</h2>
+        </div>
+        <p class="reveal lg:col-span-5 text-brand-ink-soft max-w-md leading-relaxed">Rovnaký štandard ošetrení, rovnaké technológie. Vyberte si pobočku najbližšie k vám.</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-px bg-brand-line border border-brand-line rounded-3xl overflow-hidden">
+        <a href="#" class="reveal block bg-brand-cream-warm p-7 lg:p-8 hover:bg-brand-cream transition-colors group">
+          <div class="flex items-center justify-between mb-6">
+            <span class="text-[10px] uppercase tracking-[0.3em] text-brand-ink-soft">Bratislava</span>
+            <span class="text-brand-green group-hover:translate-x-1 transition-transform">→</span>
+          </div>
+          <h3 class="font-display text-2xl text-brand-green">Staré Mesto</h3>
+          <p class="mt-3 text-sm text-brand-ink-soft">Panská 14<br/>811 01 Bratislava</p>
+          <p class="mt-4 text-xs text-brand-ink-soft nums">Po–Pi 9:00–20:00</p>
+        </a>
+        <a href="#" class="reveal block bg-brand-cream-warm p-7 lg:p-8 hover:bg-brand-cream transition-colors group">
+          <div class="flex items-center justify-between mb-6">
+            <span class="text-[10px] uppercase tracking-[0.3em] text-brand-ink-soft">Bratislava</span>
+            <span class="text-brand-green group-hover:translate-x-1 transition-transform">→</span>
+          </div>
+          <h3 class="font-display text-2xl text-brand-green">Eurovea</h3>
+          <p class="mt-3 text-sm text-brand-ink-soft">Pribinova 8<br/>811 09 Bratislava</p>
+          <p class="mt-4 text-xs text-brand-ink-soft nums">Po–Ne 10:00–21:00</p>
+        </a>
+        <a href="#" class="reveal block bg-brand-cream-warm p-7 lg:p-8 hover:bg-brand-cream transition-colors group">
+          <div class="flex items-center justify-between mb-6">
+            <span class="text-[10px] uppercase tracking-[0.3em] text-brand-ink-soft">Košice</span>
+            <span class="text-brand-green group-hover:translate-x-1 transition-transform">→</span>
+          </div>
+          <h3 class="font-display text-2xl text-brand-green">Hlavná</h3>
+          <p class="mt-3 text-sm text-brand-ink-soft">Hlavná 68<br/>040 01 Košice</p>
+          <p class="mt-4 text-xs text-brand-ink-soft nums">Po–Pi 9:00–19:00</p>
+        </a>
+        <a href="#" class="reveal block bg-brand-cream-warm p-7 lg:p-8 hover:bg-brand-cream transition-colors group">
+          <div class="flex items-center justify-between mb-6">
+            <span class="text-[10px] uppercase tracking-[0.3em] text-brand-ink-soft">Trnava</span>
+            <span class="text-brand-green group-hover:translate-x-1 transition-transform">→</span>
+          </div>
+          <h3 class="font-display text-2xl text-brand-green">Centrum</h3>
+          <p class="mt-3 text-sm text-brand-ink-soft">Hlavná 21<br/>917 01 Trnava</p>
+          <p class="mt-4 text-xs text-brand-ink-soft nums">Po–Pi 9:00–18:00</p>
+        </a>
+        <a href="#" class="reveal block bg-brand-cream-warm p-7 lg:p-8 hover:bg-brand-cream transition-colors group">
+          <div class="flex items-center justify-between mb-6">
+            <span class="text-[10px] uppercase tracking-[0.3em] text-brand-ink-soft">Nitra</span>
+            <span class="text-brand-green group-hover:translate-x-1 transition-transform">→</span>
+          </div>
+          <h3 class="font-display text-2xl text-brand-green">Štefánikova</h3>
+          <p class="mt-3 text-sm text-brand-ink-soft">Štefánikova 50<br/>949 01 Nitra</p>
+          <p class="mt-4 text-xs text-brand-ink-soft nums">Po–Pi 9:00–19:00</p>
+        </a>
+        <a href="#" class="reveal block bg-brand-cream-warm p-7 lg:p-8 hover:bg-brand-cream transition-colors group">
+          <div class="flex items-center justify-between mb-6">
+            <span class="text-[10px] uppercase tracking-[0.3em] text-brand-ink-soft">Žilina</span>
+            <span class="text-brand-green group-hover:translate-x-1 transition-transform">→</span>
+          </div>
+          <h3 class="font-display text-2xl text-brand-green">Mirage</h3>
+          <p class="mt-3 text-sm text-brand-ink-soft">Národná 22<br/>010 01 Žilina</p>
+          <p class="mt-4 text-xs text-brand-ink-soft nums">Po–Ne 10:00–21:00</p>
+        </a>
+        <a href="#" class="reveal block bg-brand-cream-warm p-7 lg:p-8 hover:bg-brand-cream transition-colors group">
+          <div class="flex items-center justify-between mb-6">
+            <span class="text-[10px] uppercase tracking-[0.3em] text-brand-ink-soft">Banská Bystrica</span>
+            <span class="text-brand-green group-hover:translate-x-1 transition-transform">→</span>
+          </div>
+          <h3 class="font-display text-2xl text-brand-green">Národná</h3>
+          <p class="mt-3 text-sm text-brand-ink-soft">Národná 12<br/>974 01 B. Bystrica</p>
+          <p class="mt-4 text-xs text-brand-ink-soft nums">Po–Pi 9:00–18:00</p>
+        </a>
+        <a href="#" class="reveal block bg-brand-cream-warm p-7 lg:p-8 hover:bg-brand-cream transition-colors group">
+          <div class="flex items-center justify-between mb-6">
+            <span class="text-[10px] uppercase tracking-[0.3em] text-brand-ink-soft">Prešov</span>
+            <span class="text-brand-green group-hover:translate-x-1 transition-transform">→</span>
+          </div>
+          <h3 class="font-display text-2xl text-brand-green">Hlavná</h3>
+          <p class="mt-3 text-sm text-brand-ink-soft">Hlavná 116<br/>080 01 Prešov</p>
+          <p class="mt-4 text-xs text-brand-ink-soft nums">Po–Pi 9:00–18:00</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============= FAQ ============= -->
+  <section class="py-28 lg:py-36 bg-brand-cream-warm relative">
+    <div class="max-w-[1400px] mx-auto px-6 lg:px-10">
+      <div class="grid lg:grid-cols-12 gap-12 lg:gap-20">
+        <div class="lg:col-span-5">
+          <div class="reveal flex items-center gap-3 mb-6">
+            <span class="h-px w-8 bg-brand-green"></span>
+            <span class="text-[11px] uppercase tracking-[0.32em] text-brand-ink-soft">Časté otázky</span>
+          </div>
+          <h2 class="reveal font-display font-light text-4xl lg:text-5xl text-brand-green leading-[1.05] tracking-tight">Otázky, ktoré <span class="italic">dostávame</span> najčastejšie.</h2>
+          <p class="reveal mt-8 text-brand-ink-soft leading-relaxed max-w-sm">Nenašli ste odpoveď? Napíšte nám — odpovieme do 24 hodín.</p>
+          <a href="#rezervacia" class="reveal mt-8 link-arrow inline-flex items-center gap-2 text-brand-green font-medium">Položiť otázku <span class="arrow">→</span></a>
+        </div>
+
+        <div class="lg:col-span-7 divide-y divide-brand-line">
+
+          <details class="reveal group py-6 cursor-pointer">
+            <summary class="flex items-start justify-between gap-6 list-none">
+              <h3 class="font-display text-xl lg:text-2xl text-brand-ink leading-snug">Bolí laserová epilácia alexandritom?</h3>
+              <span class="chev shrink-0 mt-1.5 w-7 h-7 rounded-full border border-brand-green/30 flex items-center justify-center text-brand-green text-lg">+</span>
+            </summary>
+            <p class="mt-5 text-brand-ink-soft leading-relaxed max-w-2xl">Vďaka kryogénnemu chladiacemu systému DCD je ošetrenie takmer bezbolestné. Klientky popisujú pocit ako jemné štípnutie alebo teplo, ktoré okamžite mizne. Bez gélu, bez anestetika.</p>
+          </details>
+
+          <details class="reveal group py-6 cursor-pointer">
+            <summary class="flex items-start justify-between gap-6 list-none">
+              <h3 class="font-display text-xl lg:text-2xl text-brand-ink leading-snug">Koľko sedení potrebujem na trvalý výsledok?</h3>
+              <span class="chev shrink-0 mt-1.5 w-7 h-7 rounded-full border border-brand-green/30 flex items-center justify-center text-brand-green text-lg">+</span>
+            </summary>
+            <p class="mt-5 text-brand-ink-soft leading-relaxed max-w-2xl">Štandardne 6 až 8 sedení v intervaloch 4–8 týždňov podľa rastovej fázy chĺpku. Po dokončení odporúčame udržiavacie sedenie raz za 12–18 mesiacov.</p>
+          </details>
+
+          <details class="reveal group py-6 cursor-pointer">
+            <summary class="flex items-start justify-between gap-6 list-none">
+              <h3 class="font-display text-xl lg:text-2xl text-brand-ink leading-snug">Funguje alexandrit na všetky typy pokožky?</h3>
+              <span class="chev shrink-0 mt-1.5 w-7 h-7 rounded-full border border-brand-green/30 flex items-center justify-center text-brand-green text-lg">+</span>
+            </summary>
+            <p class="mt-5 text-brand-ink-soft leading-relaxed max-w-2xl">Alexandritový laser je optimálny pre fototypy I–III (svetlá až stredne svetlá pokožka). Pre tmavšie fototypy odporúčame odlišnú technológiu — vždy na konzultácii navrhneme najvhodnejšie riešenie.</p>
+          </details>
+
+          <details class="reveal group py-6 cursor-pointer">
+            <summary class="flex items-start justify-between gap-6 list-none">
+              <h3 class="font-display text-xl lg:text-2xl text-brand-ink leading-snug">Ako sa pripraviť pred ošetrením?</h3>
+              <span class="chev shrink-0 mt-1.5 w-7 h-7 rounded-full border border-brand-green/30 flex items-center justify-center text-brand-green text-lg">+</span>
+            </summary>
+            <p class="mt-5 text-brand-ink-soft leading-relaxed max-w-2xl">Štyri týždne pred prvým sedením žiadne slnenie ani solárium. Dva týždne pred zákrokom žiadne mechanické odstraňovanie chĺpkov (vosk, depilátor) — chĺpok musí mať korienok. Deň pred ošetrením oblasť oholiť.</p>
+          </details>
+
+          <details class="reveal group py-6 cursor-pointer">
+            <summary class="flex items-start justify-between gap-6 list-none">
+              <h3 class="font-display text-xl lg:text-2xl text-brand-ink leading-snug">Kedy uvidím prvé výsledky?</h3>
+              <span class="chev shrink-0 mt-1.5 w-7 h-7 rounded-full border border-brand-green/30 flex items-center justify-center text-brand-green text-lg">+</span>
+            </summary>
+            <p class="mt-5 text-brand-ink-soft leading-relaxed max-w-2xl">Po prvom ošetrení vypadne približne 10–15 % chĺpkov. Rast sa spomaľuje a zvyšné chĺpky sú jemnejšie. Najviditeľnejší rozdiel cítite po treťom až štvrtom sedení.</p>
+          </details>
+
+          <details class="reveal group py-6 cursor-pointer">
+            <summary class="flex items-start justify-between gap-6 list-none">
+              <h3 class="font-display text-xl lg:text-2xl text-brand-ink leading-snug">Je Candela GentleLase Pro bezpečná?</h3>
+              <span class="chev shrink-0 mt-1.5 w-7 h-7 rounded-full border border-brand-green/30 flex items-center justify-center text-brand-green text-lg">+</span>
+            </summary>
+            <p class="mt-5 text-brand-ink-soft leading-relaxed max-w-2xl">Áno. Zariadenie má FDA aj CE certifikáciu, je používané vo svetových klinikách viac ako dekádu. Náš tím má certifikovaný výcvik a každé sedenie predchádza konzultácia s testom pleti.</p>
+          </details>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============= FINAL CTA ============= -->
+  <section id="rezervacia" class="py-28 lg:py-40 bg-brand-green text-brand-cream relative overflow-hidden">
+    <div class="absolute -top-40 -left-20 w-[600px] h-[600px] rounded-full bg-brand-rose/10 blur-3xl pointer-events-none"></div>
+    <div class="absolute bottom-0 -right-40 w-[500px] h-[500px] rounded-full bg-brand-rose/5 blur-3xl pointer-events-none"></div>
+
+    <div class="relative max-w-[1400px] mx-auto px-6 lg:px-10">
+      <div class="grid lg:grid-cols-12 gap-12 items-end">
+        <div class="lg:col-span-8">
+          <div class="reveal flex items-center gap-3 mb-8">
+            <span class="h-px w-10 bg-brand-rose"></span>
+            <span class="text-[11px] uppercase tracking-[0.32em] text-brand-cream/60">Začnite ešte dnes</span>
+          </div>
+          <h2 class="reveal font-display font-light text-5xl lg:text-7xl xl:text-[96px] leading-[0.95] tracking-tight">Vaša cesta k pleti, ktorú <span class="italic text-brand-rose">milujete</span>.</h2>
+          <p class="reveal mt-8 text-lg text-brand-cream/75 max-w-xl leading-relaxed">Prvá konzultácia je vždy bez poplatku. Zahŕňa posúdenie fototypu, test pleti a individuálny plán ošetrení.</p>
+        </div>
+
+        <div class="lg:col-span-4 lg:pl-8">
+          <div class="reveal space-y-4">
+            <a href="#" class="btn-tactile flex items-center justify-between gap-4 bg-brand-cream text-brand-green px-7 py-5 rounded-full font-medium hover:bg-brand-rose-soft">
+              <span>Rezervovať konzultáciu</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+            </a>
+            <a href="tel:+421911000000" class="btn-tactile flex items-center justify-between gap-4 border border-brand-cream/30 text-brand-cream px-7 py-5 rounded-full font-medium hover:bg-brand-cream/5">
+              <span>Zavolať</span>
+              <span class="nums text-sm">+421 911 000 000</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============= FOOTER ============= -->
+  <footer class="bg-brand-green-deep text-brand-cream/85 pt-20 pb-10">
+    <div class="max-w-[1400px] mx-auto px-6 lg:px-10">
+
+      <div class="grid lg:grid-cols-12 gap-10 mb-16">
+        <div class="lg:col-span-4">
+          <div class="flex items-baseline gap-2 mb-6">
+            <span class="font-display text-3xl text-brand-cream">AMASTU</span>
+            <span class="text-[10px] uppercase tracking-[0.32em] text-brand-cream/55">esthetic</span>
+          </div>
+          <p class="text-sm text-brand-cream/65 leading-relaxed max-w-xs">Estetické štúdio s laserovou epiláciou Candela GentleLase Pro. Miesto, kde sa vraciate k sebe.</p>
+
+          <div class="mt-8 flex gap-3">
+            <a href="https://instagram.com/amastuesthetic" class="w-10 h-10 rounded-full border border-brand-cream/20 flex items-center justify-center hover:bg-brand-cream/10 transition-colors">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37zM17.5 6.5h.01"/></svg>
+            </a>
+            <a href="#" class="w-10 h-10 rounded-full border border-brand-cream/20 flex items-center justify-center hover:bg-brand-cream/10 transition-colors">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="#" class="w-10 h-10 rounded-full border border-brand-cream/20 flex items-center justify-center hover:bg-brand-cream/10 transition-colors">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 18V5l12-2v13M9 9l12-2"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="lg:col-span-2">
+          <h4 class="text-[10px] uppercase tracking-[0.3em] text-brand-cream/45 mb-5">Služby</h4>
+          <ul class="space-y-3 text-sm">
+            <li><a href="#laser" class="hover:text-brand-cream transition-colors">Laserová epilácia</a></li>
+            <li><a href="#" class="hover:text-brand-cream transition-colors">HydraBeauty</a></li>
+            <li><a href="#" class="hover:text-brand-cream transition-colors">Repêchage</a></li>
+            <li><a href="#" class="hover:text-brand-cream transition-colors">Mezoterapia</a></li>
+            <li><a href="#" class="hover:text-brand-cream transition-colors">Peelingy</a></li>
+            <li><a href="#" class="hover:text-brand-cream transition-colors">Ajurvéda</a></li>
+          </ul>
+        </div>
+
+        <div class="lg:col-span-2">
+          <h4 class="text-[10px] uppercase tracking-[0.3em] text-brand-cream/45 mb-5">Štúdio</h4>
+          <ul class="space-y-3 text-sm">
+            <li><a href="#" class="hover:text-brand-cream transition-colors">O AMASTU</a></li>
+            <li><a href="#pobocky" class="hover:text-brand-cream transition-colors">Pobočky</a></li>
+            <li><a href="#blog" class="hover:text-brand-cream transition-colors">Žurnál</a></li>
+            <li><a href="#" class="hover:text-brand-cream transition-colors">Darčekové poukazy</a></li>
+            <li><a href="#" class="hover:text-brand-cream transition-colors">Kariéra</a></li>
+          </ul>
+        </div>
+
+        <div class="lg:col-span-4">
+          <h4 class="text-[10px] uppercase tracking-[0.3em] text-brand-cream/45 mb-5">Kontakt</h4>
+          <p class="text-sm leading-relaxed">
+            <a href="mailto:info@amastu.sk" class="hover:text-brand-cream transition-colors">info@amastu.sk</a><br/>
+            <a href="tel:+421911000000" class="hover:text-brand-cream transition-colors nums">+421 911 000 000</a>
+          </p>
+
+          <form class="mt-8" onsubmit="event.preventDefault(); this.querySelector('input').value=''; this.querySelector('p').textContent='Ďakujeme, ozveme sa.';">
+            <label class="block text-[10px] uppercase tracking-[0.3em] text-brand-cream/45 mb-3">Newsletter · novinky & rituály</label>
+            <div class="flex gap-2">
+              <input type="email" required placeholder="vasa@email.sk" class="flex-1 bg-transparent border border-brand-cream/20 rounded-full px-5 py-3 text-sm placeholder-brand-cream/35 focus:outline-none focus:border-brand-rose"/>
+              <button class="btn-tactile bg-brand-rose text-brand-green-deep px-5 py-3 rounded-full text-sm font-medium hover:bg-brand-rose-deep hover:text-brand-cream">Odoberať</button>
+            </div>
+            <p class="text-xs text-brand-cream/50 mt-3"></p>
+          </form>
+        </div>
+      </div>
+
+      <div class="pt-10 border-t border-brand-cream/15 flex flex-col md:flex-row gap-4 md:items-center md:justify-between text-xs text-brand-cream/45">
+        <p>© <span class="nums">2026</span> AMASTU esthetic s.r.o. Všetky práva vyhradené.</p>
+        <div class="flex gap-6">
+          <a href="#" class="hover:text-brand-cream transition-colors">Ochrana osobných údajov</a>
+          <a href="#" class="hover:text-brand-cream transition-colors">Obchodné podmienky</a>
+          <a href="#" class="hover:text-brand-cream transition-colors">Cookies</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script>
+    // Sticky nav state
+    const nav = document.getElementById('nav');
+    const onScroll = () => {
+      if (window.scrollY > 24) nav.classList.add('nav-scrolled');
+      else nav.classList.remove('nav-scrolled');
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+
+    // Reveal on scroll (staggered)
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((entry, idx) => {
+        if (entry.isIntersecting) {
+          const el = entry.target;
+          const siblings = el.parentElement.querySelectorAll('.reveal');
+          const i = Array.from(siblings).indexOf(el);
+          el.style.transitionDelay = `${Math.max(0, i) * 80}ms`;
+          el.classList.add('in');
+          io.unobserve(el);
+        }
+      });
+    }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+    document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
+  </script>
+
+</body>
+</html>
